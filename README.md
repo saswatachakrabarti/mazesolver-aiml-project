@@ -42,6 +42,7 @@ B → Goal position
 (space) → Walkable path
 
 Example maze:
+```
 
 ##########
 #A #     #
@@ -49,6 +50,7 @@ Example maze:
 # ## #   #
 #    # B #
 ##########
+```
 
 Rules:
 • Maze must contain exactly one A (start)
@@ -59,6 +61,7 @@ Rules:
 ---
 
 ## Project Structure
+```
 
 maze-ai-solver/
 │
@@ -70,6 +73,7 @@ maze-ai-solver/
 │   ├── maze1.txt
 │   ├── maze2.txt
 │   ├── maze3.txt
+```
 
 ---
 
