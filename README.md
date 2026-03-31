@@ -65,11 +65,15 @@ Rules:
 
 ## Project Structure
 ```
+## Project Structure
+
+```
 maze-ai-solver/
 │
 ├── mazenew.py
 ├── requirements.txt
 ├── README.md
+├── Project_Report.pdf
 │
 ├── mazes/
 │   ├── maze1.txt
@@ -83,6 +87,21 @@ maze-ai-solver/
     ├── maze2_dfs.png
     ├── maze3_bfs.png
     ├── maze3_dfs.png
+```
+
+Explanation:
+
+mazenew.py → main AI maze solving program implementing DFS and BFS  
+
+requirements.txt → contains required dependency (Pillow library)  
+
+README.md → contains instructions to set up and run the project  
+
+Project_Report.pdf → detailed explanation of problem, approach, observations, and learning  
+
+mazes/ → contains input maze text files  
+
+output/ → contains generated solution images for each maze using DFS and BFS
 ```
 
 ---
