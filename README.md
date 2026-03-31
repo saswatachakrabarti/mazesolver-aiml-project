@@ -38,7 +38,7 @@ Symbols used:
 
 A → Start position
 B → Goal position
-# → Wall / obstacle
+```# → Wall / obstacle```
 (space) → Walkable path
 
 Example maze:
