@@ -2,33 +2,36 @@
 
 ## Project Overview
 
-This project implements an Artificial Intelligence based maze solving agent that finds a path from a start position (A) to a goal position (B).
+This project is designed to develop an Artificial Intelligence-based maze solver agent to find the path between the start point (A) and the end point (B).
 
-The solver uses classical AI search algorithms to explore the maze and determine a valid path while avoiding obstacles.
+This maze solver agent will utilize the classical search algorithms used in Artificial Intelligence to search the maze and find a path to the goal point while avoiding obstacles.
 
-The project also compares the performance of two algorithms:
+This project is also designed to compare the performance of two search algorithms:
 
 • DFS (Depth First Search)
 • BFS (Breadth First Search)
 
-The program outputs statistics such as number of explored states, path length, and time taken to evaluate which algorithm performs better.
-
+This program will display the statistics to determine which algorithm performs better.
 ---
 
 ## AI Concepts Used
 
-This project demonstrates important Artificial Intelligence concepts:
+This project is used to demontrate important Artificial Intelligence concepts:
 
-• State Space Search
 • Problem Solving Agents
-• Graph Traversal
+• Graph Traversing
 • DFS (Depth First Search)
 • BFS (Breadth First Search)
-• Performance Evaluation of Algorithms
+• Performance Evaluation of Algos
 
-Maze solving is a classical AI problem similar to pathfinding in robotics, games, and navigation systems.
 
 ---
+
+## Why I chose this project?
+I selected the problem of solving a maze because I believe it is a great representation of how AI search algorithms work in real-life navigation problems. I thought that, as a Computer Science student, it was interesting to see how different algorithms explore the same problem in different ways.
+
+---
+
 
 ## Maze Format
 
@@ -86,13 +89,11 @@ maze-ai-solver/
 
 ## Environment Setup
 
-Make sure Python is installed.
-
-Check Python version:
+Make sure Python is installed and check python version
 
 python --version
 
-Install required dependency:
+Installing required dependency:
 
 pip install -r requirements.txt
 
@@ -104,7 +105,7 @@ Pillow (used to generate solution image)
 
 ## How to Run the Program
 
-Run the program from the command line (terminal).
+Run the program from the command line.
 
 Input format:
 
@@ -165,17 +166,17 @@ open solution.png
 ## Algorithm Comparison
 
 DFS (Depth First Search)
-• Explores deeper paths first
-• Uses stack data structure
-• May not always give shortest path
+• Searches deeper before moving to the next level
+• Uses a stack data structure
+• Does not guarantee the shortest path
 
 BFS (Breadth First Search)
-• Explores level by level
-• Uses queue data structure
-• Always finds shortest path
-• Usually explores more states
+• Searches level by level
+• Uses a queue data structure
+• Guarantees the shortest path
+• Searches more states
 
-The statistics printed help determine which algorithm performs better for a given maze.
+The statistics printed will help determine which algorithm performs better for a given maze.
 
 ---
 
