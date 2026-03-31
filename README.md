@@ -62,7 +62,6 @@ Rules:
 
 ## Project Structure
 ```
-
 maze-ai-solver/
 │
 ├── mazenew.py
@@ -73,6 +72,14 @@ maze-ai-solver/
 │   ├── maze1.txt
 │   ├── maze2.txt
 │   ├── maze3.txt
+│
+└── output/
+    ├── maze1_bfs.png
+    ├── maze1_dfs.png
+    ├── maze2_bfs.png
+    ├── maze2_dfs.png
+    ├── maze3_bfs.png
+    ├── maze3_dfs.png
 ```
 
 ---
